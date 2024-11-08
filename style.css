@@ -1,0 +1,51 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+  }
+
+.header li a {
+    border-width: 1px;
+    border-color: gray;
+    color: white;
+    background-color: dimgray;
+    font-size: 48px;
+    font-weight: 400px;
+}
+
+header {
+    position: fixed;
+    z-index: 100;
+    height: 100px;
+    width: 100%;
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.hero-title h1 {
+    /*font-optical-sizing: auto;*/
+    font-weight: 400px;
+    font-style: normal;
+    text-shadow: 1%;
+}
+
+.hero-title h2 {
+    font-weight: 400px;
+}
+
+.hero-image {
+    width: 100%;
+    z-index: 1;
+}
+
+.hero-title h1 h2 {
+    z-index: 2;
+}
