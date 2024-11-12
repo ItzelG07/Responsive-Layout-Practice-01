@@ -8,14 +8,18 @@
 
 .nav-bar li a {
     color: white;
-    background-color: dimgray;
+    background-color: #383E4C;
     font-size: 20px;
     font-weight: 400;
     list-style: none;
-    border: 2px solid black;
+    border: 2px solid #49505F;
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.nav-bar li a:hover {
+    background-color: #596170;
 }
 
 .header {
@@ -33,7 +37,7 @@
     padding-left: 29%;
     padding-right: 28%;
     height: 80px;
-    background-color: #012340;
+    background-color: #383E4C;
 }
 
 main {
@@ -77,7 +81,7 @@ main {
 
 .card-third1 {
     width: 25%;
-    background-color: gray;
+    background-color: #F2F2F2;
     text-align: center;
 }
 
@@ -91,18 +95,19 @@ main {
 }
 
 .card-third1 h2 {
-    color: green;
+    color: #178A27;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
 }
 
 .card-third1 p {
+    color: #666666;
     margin-bottom: 8px;
 }
 
 .card-third1 button {
-    background-color:  green;
+    background-color:  #178A27;
     color: white;
     font-size: 24px;
     padding: 10px 30px;
@@ -111,13 +116,9 @@ main {
     margin-bottom: 32px;
 }
 
-
-
-
-
 .card-third2 {
     width: 25%;
-    background-color: gray;
+    background-color: #F2F2F2;
     text-align: center;
 }
 
@@ -131,18 +132,19 @@ main {
 }
 
 .card-third2 h2 {
-    color: blue;
+    color: #1686C1;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
 }
 
 .card-third2 p {
+    color: #666666;
     margin-bottom: 8px;
 }
 
 .card-third2 button {
-    background-color:  blue;
+    background-color:  #1686C1;
     color: white;
     font-size: 24px;
     padding: 10px 30px;
@@ -151,12 +153,9 @@ main {
     margin-bottom: 32px;
 }
 
-
-
-
 .card-third3 {
     width: 25%;
-    background-color: gray;
+    background-color: #F2F2F2;
     text-align: center;
 }
 
@@ -170,17 +169,19 @@ main {
 }
 
 .card-third3 h2 {
+    color: #666666;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
 }
 
 .card-third3 p {
+    color: #666666;
     margin-bottom: 8px;
 }
 
 .card-third3 button {
-    background-color:  red;
+    background-color: #852406;
     color: white;
     font-size: 24px;
     padding: 10px 30px;
@@ -189,13 +190,10 @@ main {
     margin-bottom: 32px;
 }
 
-
-
-
 .card-half1 {
     width: 40%;
     height: 75vh;
-    background-color: gray;
+    background-color: #F2F2F2;
     text-align: center;
 }
 
@@ -209,6 +207,7 @@ main {
 }
 
 .card-half1 h2 {
+    color: #666666;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
@@ -216,17 +215,14 @@ main {
 }
 
 .card-half1 p {
+    color: #666666;
     margin-bottom: 8px;
 }
-
-
-
-
 
 .card-half2 {
     width: 40%;
     height: 80vh;
-    background-color: gray;
+    background-color: #F2F2F2;
     text-align: right;
 }
 
@@ -240,6 +236,7 @@ main {
 }
 
 .card-half2 h2 {
+    color: #666666;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
@@ -247,13 +244,14 @@ main {
 }
 
 .card-half2 p {
+    color: #666666;
     margin-bottom: 8px;
     text-align: left;
 }
 
 .card-half2 button {
     background-color:  white;
-    color: gray;
+    color: #666666;    ;
     font-size: 24px;
     padding: 10px 30px;
     border-radius: 6px;
@@ -261,11 +259,6 @@ main {
     margin-bottom: 32px;
     margin-right: 110px;
 }
-
-
-
-
-
 
 .card-width {
     position: relative;
@@ -297,16 +290,10 @@ main {
     padding-bottom: 3%;
 }
 
-
-
-
-
-
-
 .card-quarter1 {
     width: 20%;
     height: 70vh;
-    background-color: gray;
+    background-color: #F2F2F2;
     text-align: center;
 }
 
@@ -320,7 +307,7 @@ main {
 }
 
 .card-quarter1 h2 {
-    color: green;
+    color: #666666;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
@@ -328,18 +315,14 @@ main {
 }
 
 .card-quarter1 p {
+    color: #666666;
     margin-bottom: 8px;
 }
-
-
-
-
-
 
 .card-quarter2 {
     width: 20%;
     height: 70vh;
-    background-color: gray;
+    background-color: #F2F2F2;
     text-align: center;
 }
 
@@ -353,7 +336,7 @@ main {
 }
 
 .card-quarter2 h2 {
-    color: green;
+    color: #666666;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
@@ -361,12 +344,14 @@ main {
 }
 
 .card-quarter2 p {
+    color: #666666;
     margin-bottom: 8px;
 }
 
 .card-quarter2 button {
-    background-color:  green;
-    color: white;
+    background-color:  white;
+    color: #666666;
+    border: 1px solid #666666;
     font-size: 24px;
     padding: 10px 30px;
     border-radius: 6px;
@@ -374,14 +359,10 @@ main {
     margin-bottom: 32px;
 }
 
-
-
-
-
 .card-quarter3 {
     width: 20%;
     height: 70vh;
-    background-color: gray;
+    background-color: #F2F2F2;
     text-align: center;
 }
 
@@ -395,7 +376,7 @@ main {
 }
 
 .card-quarter3 h2 {
-    color: green;
+    color: #666666;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
@@ -403,16 +384,14 @@ main {
 }
 
 .card-quarter3 p {
+    color: #666666;
     margin-bottom: 8px;
 }
-
-
-
 
 .card-quarter4 {
     width: 20%;
     height: 70vh;
-    background-color: gray;
+    background-color: #F2F2F2;
     text-align: center;
 }
 
@@ -426,7 +405,7 @@ main {
 }
 
 .card-quarter4 h2 {
-    color: green;
+    color: #666666;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
@@ -434,12 +413,14 @@ main {
 }
 
 .card-quarter4 p {
+    color: #666666;
     margin-bottom: 8px;
 }
 
 .card-quarter4 button {
-    background-color:  green;
-    color: white;
+    background-color:  white;
+    color: #666666;
+    border: 1px solid #666666;
     font-size: 24px;
     padding: 10px 30px;
     border-radius: 6px;
@@ -447,13 +428,10 @@ main {
     margin-bottom: 32px;
 }
 
-
-
-
 .card-big {
     width: 60%;
     height: 85vh;
-    background-color: gray;
+    background-color: #F2F2F2;
     text-align: left;
 }
 
@@ -467,7 +445,7 @@ main {
 }
 
 .card-big h2 {
-    color: green;
+    color: #666666;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
@@ -475,12 +453,14 @@ main {
 }
 
 .card-big p {
+    color: #666666;
     margin-bottom: 8px;
 }
 
 .card-big button {
-    background-color:  green;
-    color: white;
+    background-color: white;
+    color: #666666;
+    border: 1px solid #666666;
     font-size: 24px;
     padding: 10px 30px;
     border-radius: 6px;
@@ -488,10 +468,6 @@ main {
     margin-left: 16px;
     margin-bottom: 32px;
 }
-
-
-
-
 
 .form {
     position: relative;
@@ -597,7 +573,8 @@ footer p:first-of-type {
 }
 
 footer p:last-of-type {
-    border-top: 1px solid black;
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid black;
     width: 100%;
     padding-top: 40px;
     margin-top: 15px;
@@ -615,4 +592,28 @@ footer p:last-of-type {
 .card-third1, .card-third2, .card-third3 {
     /*flex: 1 1 15%;*/
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 70px;
+}
+
+.card-third {
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: grid;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.third-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 60px;
+    justify-content: center;
 }
